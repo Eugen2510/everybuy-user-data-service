@@ -5,4 +5,4 @@ CREATE TABLE IF NOT EXISTS address(
 	city_id INT,
 	CONSTRAINT fk_city_address
 	FOREIGN KEY (city_id) REFERENCES city(id)
-)
+);

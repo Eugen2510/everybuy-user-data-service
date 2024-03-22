@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS city(
 	country_id SERIAL,
 	CONSTRAINT fk_country_city
 	FOREIGN KEY (country_id) REFERENCES country(id)
-)
+);

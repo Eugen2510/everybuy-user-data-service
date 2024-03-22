@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS users(
 	default_address_id BIGINT,
 	CONSTRAINT fk_user_default_address
 	FOREIGN KEY (default_address_id) REFERENCES address(id)
-)
+);
